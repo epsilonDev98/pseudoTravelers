@@ -1,0 +1,40 @@
+/// database queries for tour and trvael in java
+// consists of four tables 
+//PSITCOE -CS IIIB
+// SARVESH KUMAR (1634810087) SURYA PRATAP SINGH (1634810108)
+//project name: PSEUDO TRAVELLERS
+
+
+-------------------------------------------------------------------
+
+create table travel_user(
+user_username varchar2(50),
+user_password varchar2(50),
+user_email varchar2(50),user_mobile varchar2(50)
+)
+--------------------------------------------------------------------
+
+create table travel_admin(
+admin_username varchar2(50),
+admin_password varchar2(50)
+)
+--------------------------------------------------------------------
+
+create table route(
+addbus_id varchar2(50),
+addbus_source varchar2(50),
+addbus_destination varchar2(50),
+addbus_time varchar2(50)
+)
+--------------------------------------------------------------------
+
+create table user420(
+id number,
+name varchar2(50),
+salary number
+)
+--------------------------------------------------------------------
+
+insert 
+into travel_admin values('sarvesh','zxcvbnm')
+select * from travel_admin
